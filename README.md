@@ -30,7 +30,6 @@ Meu nome é **Victor Soares Langkamer**. Tenho 19 anos e estou cursando o **3º 
 
 <div align="center">
     <img src="https://github-readme-stats.vercel.app/api?username=VitorLangkamer&show_icons=true&theme=radical&count_private=true&title_color=FFA500&icon_color=FFA500&text_color=FFFFFF" alt="Estatísticas do GitHub" width="400"/>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VitorLangkamer&layout=compact&theme=radical&title_color=FFA500&text_color=FFFFFF&langs_count=3&hide=python" alt="Linguagens mais usadas" width="400"/>
 </div>
 
 ## 🌐 Minhas Redes Sociais
