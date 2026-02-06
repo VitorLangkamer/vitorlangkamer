@@ -27,12 +27,6 @@ Meu nome é **Victor Soares Langkamer**. Tenho 19 anos e estou cursando o **3º 
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="50" height="50"/>
 </div>
 
-## 📊 Minhas Estatísticas no GitHub
-
-<div align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=VitorLangkamer&show_icons=true&theme=radical&count_private=true&title_color=FFA500&icon_color=FFA500&text_color=FFFFFF" alt="Estatísticas do GitHub" width="400"/>
-</div>
-
 ## 🌐 Minhas Redes Sociais
 
 <div align="center" style="border: 2px solid #FFA500; border-radius: 10px; padding: 15px; display: inline-block;">
