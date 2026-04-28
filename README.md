@@ -25,6 +25,7 @@ Meu nome é **Victor Soares Langkamer**. Tenho 19 anos e estou cursando o **3º 
 <div align="center" style="border: 2px solid orange; border-radius: 10px; padding: 10px; margin: 10px;">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="50" height="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="50" height="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50" style="margin-right: 15px;"/>
 </div>
 
 ## 🌐 Minhas Redes Sociais
