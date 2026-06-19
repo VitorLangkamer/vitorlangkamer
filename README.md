@@ -2,7 +2,7 @@
 
 ## 🎨 Desenvolvedor web Front-end  
 
-Meu nome é **Victor Soares Langkamer**. Tenho 19 anos e estou cursando o **3º período** de **Análise e Desenvolvimento de Sistemas** na _Universidade do Vale do Cricaré_. Além disso, estudo **desenvolvimento web** de forma independente por meio de cursos, buscando me especializar na área que escolhi como carreira profissional.
+Meu nome é **Victor Soares Langkamer**. Tenho 20 anos e estou cursando o **5º período** de **Análise e Desenvolvimento de Sistemas** na _Universidade do Vale do Cricaré_. Além disso, estudo **desenvolvimento web** de forma independente por meio de cursos, buscando me especializar na área que escolhi como carreira profissional.
 
 <div align="center">
     <img src="https://komarev.com/ghpvc/?username=VitorLangkamer&color=orange&style=for-the-badge" alt="Visualizações no perfil"/>
