@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gera os SVGs animados do README (tema café de desenvolvedor).
+"""Gera os SVGs animados do README (paleta do portfólio).
 
 Uso:  pip install fonttools brotli pillow && python3 scripts/build.py
 
@@ -221,7 +221,7 @@ def ticker(svg, y, h, words, size=13, key="monom", speed=40, fill=CREME, bg=MARR
 
 
 def steam(svg, cx, base, height, n=3, spread=16, stroke=CREME, width=3, cls="st"):
-    """Fumaça de café: linhas onduladas que sobem e somem."""
+    """Fumaça: linhas onduladas que sobem e somem."""
     out = []
     for i in range(n):
         x = cx + (i - (n - 1) / 2) * spread
@@ -241,7 +241,7 @@ def steam(svg, cx, base, height, n=3, spread=16, stroke=CREME, width=3, cls="st"
 def build_header():
     W, H = 1000, 460
     svg = SVG(W, H, "Victor Langkamer · Dev Front-end, Web Designer e UI/UX Designer",
-              "Cabeçalho em tons de café com o retrato de Victor, o símbolo VL e as funções digitadas em sequência.")
+              "Cabeçalho em tons escuros e quentes com o retrato de Victor, o símbolo VL e as funções digitadas em sequência.")
     card_bg(svg)
 
     # Nome gigante ao fundo, como no hero do portfólio
@@ -341,7 +341,7 @@ def build_header():
     svg.css.append(".sig{animation:fade .8s .6s both;}.sig2{animation:fade .8s .8s both;}")
 
     ticker(svg, H - 44, 44, ["HTML", "CSS", "JAVASCRIPT", "TYPESCRIPT", "REACT", "ASTRO",
-                             "TAILWIND CSS", "GSAP", "NODE.JS", "GIT", "VERCEL", "CAFÉ"])
+                             "TAILWIND CSS", "GSAP", "NODE.JS", "GIT", "VERCEL"])
     svg.save("header.svg")
 
 
@@ -378,7 +378,7 @@ def build_about():
     svg = SVG(W, H, "victor.ts: quem é Victor Langkamer",
               "Janela de editor com um objeto TypeScript descrevendo Victor: formado em Análise e Desenvolvimento "
               "de Sistemas, Dev Front-end, Web Designer e UI/UX Designer, focado em sites para pequenos negócios "
-              "e autônomos. Ao lado, uma xícara de café com fumaça animada.")
+              "e autônomos. Ao lado, uma ilustração com o símbolo VL e fumaça animada.")
     card_bg(svg, glow=False)
     # Barra de título
     svg.add(f'<path d="M0 22a22 22 0 0 1 22-22h956a22 22 0 0 1 22 22v26H0z" fill="{MARROM}"/>')
@@ -402,7 +402,7 @@ def build_about():
          ("mono", '"Web Designer"', S), ("mono", ", ", PU), ("mono", '"UI/UX"', S), ("mono", "],", PU)],
         [("mono", "  foco", P), ("mono", ": ", PU), ("mono", '"sites p/ pequenos negócios"', S), ("mono", ",", PU)],
         [("mono", "  mantra", P), ("mono", ": ", PU), ("mono", '"menos efeito, mais intenção"', S), ("mono", ",", PU)],
-        [("mono", "  combustivel", P), ("mono", ": ", PU), ("mono", '"café"', S), ("mono", ",", PU)],
+        [("mono", "  base", P), ("mono", ": ", PU), ("mono", '"São Mateus, ES"', S), ("mono", ",", PU)],
         [("mono", "};", PU)],
         [],
         [("monob", "export default ", K), ("mono", "victor", P), ("mono", ";", PU)],
@@ -443,18 +443,18 @@ def build_about():
 
 def build_stack():
     W, H = 1000, 452
-    svg = SVG(W, H, "Cardápio da stack",
-              "Stack em formato de cardápio de cafeteria. Espresso (base): HTML, CSS, JavaScript e TypeScript. "
-              "Cappuccino (interfaces): React, Astro, Tailwind CSS e GSAP. Cold brew (entrega): Node.js, Git e Vercel.")
+    svg = SVG(W, H, "Stack",
+              "Stack em três colunas. Base: HTML, CSS, JavaScript e TypeScript. "
+              "Interfaces: React, Astro, Tailwind CSS e GSAP. Entrega: Node.js, Git e Vercel.")
     card_bg(svg)
     cols = [
-        ("ESPRESSO", "Base", "o que sustenta", [
+        ("01", "Base", "o que sustenta", [
             ("html5", "HTML", "estrutura"), ("css", "CSS", "estilo"),
             ("javascript", "JavaScript", "interação"), ("typescript", "TypeScript", "tipagem")]),
-        ("CAPPUCCINO", "Interfaces", "o que aparece", [
+        ("02", "Interfaces", "o que aparece", [
             ("react", "React", "componentes"), ("astro", "Astro", "sites rápidos"),
             ("tailwindcss", "Tailwind CSS", "utilitários"), ("gsap", "GSAP", "animação")]),
-        ("COLD BREW", "Entrega", "o que leva ao ar", [
+        ("03", "Entrega", "o que leva ao ar", [
             ("nodedotjs", "Node.js", "runtime"), ("git", "Git", "versões"),
             ("vercel", "Vercel", "deploy")]),
     ]
@@ -489,11 +489,6 @@ def build_stack():
                      f'stroke="{CINZA}" stroke-width="1.6" stroke-dasharray="1.5 5" stroke-linecap="round" opacity=".7"/>')
             g.append(svg.text(x + cw - 24, y - 1, note.upper(), "mono", 10, CINZA, spacing=1.2, anchor="end"))
             g.append("</g>")
-        if len(items) == 3:
-            y = top + 168 + 3 * 58
-            g.append(f'<g class="item" style="animation-delay:{d0 + .35 + 3 * .14:.2f}s">')
-            line, _ = svg.runs(x + 24, y, [("serif", "+ café, ", LARANJA), ("serif", "sempre", LARANJA)], 20)
-            g.append(line + "</g>")
         g.append("</g>")
         svg.add("".join(g))
     svg.css.append(".col{animation:up .8s cubic-bezier(.2,.7,.2,1) both;}"
@@ -544,7 +539,7 @@ def build_project_feature():
     svg.add(line)
     desc = ["Hero em camadas, retrato recortado,",
             "funções digitadas e rolagem suave.",
-            "Identidade própria em tons de café."]
+            "Identidade visual própria."]
     for i, d in enumerate(desc):
         svg.add(svg.text(x, 214 + i * 24, d, "reg", 16, CREME, extra=' opacity=".82"'))
     cx = x
@@ -616,7 +611,7 @@ def build_footer():
 if __name__ == "__main__":
     build_header()
     build_title("title-about.svg", "01 / SOBRE", "Prazer, ", "Victor.")
-    build_title("title-stack.svg", "02 / STACK", "O que vai na ", "xícara")
+    build_title("title-stack.svg", "02 / STACK", "Minha ", "stack")
     build_title("title-projects.svg", "03 / PROJETOS", "Do conceito ", "ao ar.")
     build_title("title-contact.svg", "04 / CONTATO", "Vamos ", "conversar?")
     build_about()

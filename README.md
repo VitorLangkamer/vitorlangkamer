@@ -1,31 +1,31 @@
 <a href="https://victor-langkamer-portfolio.vercel.app">
-  <img src="assets/header.svg" width="100%" alt="Victor Langkamer. Eu sou Dev Front-end, Web Designer e UI/UX Designer. Sites feitos com intenção.">
+  <img src="assets/header.svg?v=3" width="100%" alt="Victor Langkamer. Eu sou Dev Front-end, Web Designer e UI/UX Designer. Sites feitos com intenção.">
 </a>
 
-<img src="assets/title-about.svg" width="100%" alt="01 / Sobre: Prazer, Victor.">
+<img src="assets/title-about.svg?v=3" width="100%" alt="01 / Sobre: Prazer, Victor.">
 
-<img src="assets/about.svg" width="100%" alt="Arquivo victor.ts: Victor Soares Langkamer, formado em Análise e Desenvolvimento de Sistemas. Dev Front-end, Web Designer e UI/UX. Foco em sites para pequenos negócios. Mantra: menos efeito, mais intenção. Combustível: café.">
+<img src="assets/about.svg?v=3" width="100%" alt="Arquivo victor.ts: Victor Soares Langkamer, formado em Análise e Desenvolvimento de Sistemas. Dev Front-end, Web Designer e UI/UX. Foco em sites para pequenos negócios. Mantra: menos efeito, mais intenção.">
 
 Me chamo **Victor Soares Langkamer**. Sou desenvolvedor front-end e web designer, **formado em Análise e Desenvolvimento de Sistemas** pela _Universidade do Vale do Cricaré_. Faço sites para pequenos negócios e autônomos, pensando design, estrutura e desenvolvimento juntos.
 
 > Tecnologia pode ser complexa. A experiência de quem usa não precisa ser.
 
-<img src="assets/title-stack.svg" width="100%" alt="02 / Stack: O que vai na xícara.">
+<img src="assets/title-stack.svg?v=3" width="100%" alt="02 / Stack: Minha stack.">
 
-<img src="assets/stack.svg" width="100%" alt="Cardápio da stack. Espresso (base): HTML, CSS, JavaScript e TypeScript. Cappuccino (interfaces): React, Astro, Tailwind CSS e GSAP. Cold brew (entrega): Node.js, Git e Vercel.">
+<img src="assets/stack.svg?v=3" width="100%" alt="Stack. Base: HTML, CSS, JavaScript e TypeScript. Interfaces: React, Astro, Tailwind CSS e GSAP. Entrega: Node.js, Git e Vercel.">
 
-<img src="assets/title-projects.svg" width="100%" alt="03 / Projetos: Do conceito ao ar.">
+<img src="assets/title-projects.svg?v=3" width="100%" alt="03 / Projetos: Do conceito ao ar.">
 
 <a href="https://victor-langkamer-portfolio.vercel.app">
-  <img src="assets/project-portfolio.svg" width="100%" alt="Em destaque: meu portfólio, feito com Astro, GSAP e TypeScript, publicado na Vercel.">
+  <img src="assets/project-portfolio.svg?v=3" width="100%" alt="Em destaque: meu portfólio, feito com Astro, GSAP e TypeScript, publicado na Vercel.">
 </a>
 
 <p>
-  <a href="https://brunnocorreia.vercel.app/"><img src="assets/project-brunno.svg" width="49%" alt="Caso real: Brunno Rodrigues, portfólio de social media."></a>
-  <a href="https://neriva-delta.vercel.app/"><img src="assets/project-neriva.svg" width="49%" alt="Projeto conceito: Neriva, site para estúdio de tatuagem."></a>
+  <a href="https://brunnocorreia.vercel.app/"><img src="assets/project-brunno.svg?v=3" width="49%" alt="Caso real: Brunno Rodrigues, portfólio de social media."></a>
+  <a href="https://neriva-delta.vercel.app/"><img src="assets/project-neriva.svg?v=3" width="49%" alt="Projeto conceito: Neriva, site para estúdio de tatuagem."></a>
 </p>
 
-<img src="assets/title-contact.svg" width="100%" alt="04 / Contato: Vamos conversar?">
+<img src="assets/title-contact.svg?v=3" width="100%" alt="04 / Contato: Vamos conversar?">
 
 <p align="center">
   <a href="https://victor-langkamer-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portf%C3%B3lio-ver%20ao%20vivo-E33A0A?style=for-the-badge&logo=vercel&logoColor=F3E8DA&labelColor=1C110D" alt="Portfólio"></a>
@@ -39,6 +39,6 @@ Me chamo **Victor Soares Langkamer**. Sou desenvolvedor front-end e web designer
   <img src="https://img.shields.io/github/followers/VitorLangkamer?style=for-the-badge&logo=github&logoColor=F3E8DA&label=Seguidores&labelColor=1C110D&color=4A2A1E" alt="Seguidores">
 </p>
 
-<img src="assets/footer.svg" width="100%" alt="Sites feitos com intenção. Tecnologia com critério.">
+<img src="assets/footer.svg?v=3" width="100%" alt="Sites feitos com intenção. Tecnologia com critério.">
 
 <!-- Os SVGs em assets/ são gerados por scripts/build.py (veja scripts/README.md). -->
