@@ -337,7 +337,7 @@ def build_header():
     # Assinatura
     line, _ = svg.runs(40, 352, [("reg", "Sites feitos com ", CREME), ("serif", "intenção.", LARANJA)], 30)
     svg.add(f'<g class="sig">{line}</g>')
-    svg.add(f'<g class="sig2">' + svg.text(40, 384, "Tecnologia com critério. Café com código.", "reg", 16, CINZA) + "</g>")
+    svg.add(f'<g class="sig2">' + svg.text(40, 384, "Tecnologia com critério.", "reg", 16, CINZA) + "</g>")
     svg.css.append(".sig{animation:fade .8s .6s both;}.sig2{animation:fade .8s .8s both;}")
 
     ticker(svg, H - 44, 44, ["HTML", "CSS", "JAVASCRIPT", "TYPESCRIPT", "REACT", "ASTRO",
@@ -389,11 +389,11 @@ def build_about():
     svg.add(f'<path d="M100 48v-30a8 8 0 0 1 8-8h{tw - 16:.1f}a8 8 0 0 1 8 8v30z" fill="{CAFE}"/>')
     svg.add(f'<rect x="112" y="24" width="7" height="7" fill="{LARANJA}"/>')
     svg.add(svg.text(126, 32, tab, "mono", 13, CREME))
-    svg.add(svg.text(W - 24, 32, "CAFÉ COM CÓDIGO 01/06", "mono", 11, CREME, spacing=2, anchor="end", extra=' opacity=".7"'))
+    svg.add(svg.text(W - 24, 32, "01 / SOBRE", "mono", 11, CREME, spacing=2, anchor="end", extra=' opacity=".7"'))
 
     K, P, S, C, N, PU = LARANJA_CLARO, CREME, LATTE, CINZA, CREME, "#B9A99A"
     lines = [
-        [("mono", "// café com código: quem escreve este perfil", C)],
+        [("mono", "// quem escreve este perfil", C)],
         [("monob", "const ", K), ("mono", "victor", P), ("mono", " = {", PU)],
         [("mono", "  nome", P), ("mono", ": ", PU), ("mono", '"Victor Soares Langkamer"', S), ("mono", ",", PU)],
         [("mono", "  formacao", P), ("mono", ": ", PU), ("mono", '"Análise e Desenv. de Sistemas"', S), ("mono", ",", PU)],
@@ -585,13 +585,13 @@ def build_project_card(name, file, title, kind, kind_fill, kind_color, kind_desc
 
 def build_footer():
     W, H = 1000, 220
-    svg = SVG(W, H, "Sites feitos com intenção. Tecnologia com critério. Café com código.",
+    svg = SVG(W, H, "Sites feitos com intenção. Tecnologia com critério.",
               "Rodapé com as assinaturas da marca correndo em faixa e o fechamento: curiosidade para descobrir, "
               "cuidado para construir, intenção para comunicar.")
     card_bg(svg)
     # faixa grande com assinaturas
     size = 40
-    segs = [("Sites feitos com ", "intenção."), ("Tecnologia com ", "critério."), ("Café com ", "código.")]
+    segs = [("Sites feitos com ", "intenção."), ("Tecnologia com ", "critério.")]
     items, x = [], 0
     for a, b in segs:
         ln, w = svg.runs(x, 92, [("bold", a, CREME), ("serif", b, LARANJA)], size)
