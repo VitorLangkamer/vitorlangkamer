@@ -1,41 +1,44 @@
-# 👨🏻‍💻 Olá! Me chamo Victor
+<a href="https://victor-langkamer-portfolio.vercel.app">
+  <img src="assets/header.svg" width="100%" alt="Victor Langkamer. Eu sou Dev Front-end, Web Designer e UI/UX Designer. Sites feitos com intenção.">
+</a>
 
-## 🎨 Desenvolvedor web Front-end  
+<img src="assets/title-about.svg" width="100%" alt="01 / Sobre: Prazer, Victor.">
 
-Meu nome é **Victor Soares Langkamer**. Tenho 20 anos e estou cursando o **5º período** de **Análise e Desenvolvimento de Sistemas** na _Universidade do Vale do Cricaré_. Além disso, estudo **desenvolvimento web** de forma independente por meio de cursos, buscando me especializar na área que escolhi como carreira profissional.
+<img src="assets/about.svg" width="100%" alt="Arquivo victor.ts: Victor Soares Langkamer, formado em Análise e Desenvolvimento de Sistemas. Dev Front-end, Web Designer e UI/UX. Foco em sites para pequenos negócios. Mantra: menos efeito, mais intenção. Combustível: café.">
 
-<div align="center">
-    <img src="https://komarev.com/ghpvc/?username=VitorLangkamer&color=orange&style=for-the-badge" alt="Visualizações no perfil"/>
-    <img src="https://img.shields.io/github/followers/VitorLangkamer?style=for-the-badge&logo=github&color=orange" alt="Seguidores"/>
-</div>
+Me chamo **Victor Soares Langkamer**. Sou desenvolvedor front-end e web designer, **formado em Análise e Desenvolvimento de Sistemas** pela _Universidade do Vale do Cricaré_. Faço sites para pequenos negócios e autônomos, pensando design, estrutura e desenvolvimento juntos.
 
-## ⚙ Linguagens e Tecnologias
+> Tecnologia pode ser complexa. A experiência de quem usa não precisa ser.
 
-<div align="center" style="border: 2px solid orange; border-radius: 10px; padding: 10px; margin: 10px;">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="50" height="50" style="margin-right: 15px;"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="50" height="50" style="margin-right: 15px;"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50" style="margin-right: 15px;"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="50" height="50" style="margin-right: 15px;"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="50" height="50" style="margin-right: 15px;"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" width="50" height="50"/>
-</div>
+<img src="assets/title-stack.svg" width="100%" alt="02 / Stack: O que vai na xícara.">
 
-## 📚 Atualmente estudando
+<img src="assets/stack.svg" width="100%" alt="Cardápio da stack. Espresso (base): HTML, CSS, JavaScript e TypeScript. Cappuccino (interfaces): React, Astro, Tailwind CSS e GSAP. Cold brew (entrega): Node.js, Git e Vercel.">
 
-<div align="center" style="border: 2px solid orange; border-radius: 10px; padding: 10px; margin: 10px;">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="50" height="50"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="50" height="50"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50" style="margin-right: 15px;"/>
-</div>
+<img src="assets/title-projects.svg" width="100%" alt="03 / Projetos: Do conceito ao ar.">
 
-## 🌐 Minhas Redes Sociais
+<a href="https://victor-langkamer-portfolio.vercel.app">
+  <img src="assets/project-portfolio.svg" width="100%" alt="Em destaque: meu portfólio, feito com Astro, GSAP e TypeScript, publicado na Vercel.">
+</a>
 
-<div align="center" style="border: 2px solid #FFA500; border-radius: 10px; padding: 15px; display: inline-block;">
+<p>
+  <a href="https://brunnocorreia.vercel.app/"><img src="assets/project-brunno.svg" width="49%" alt="Caso real: Brunno Rodrigues, portfólio de social media."></a>
+  <a href="https://neriva-delta.vercel.app/"><img src="assets/project-neriva.svg" width="49%" alt="Projeto conceito: Neriva, site para estúdio de tatuagem."></a>
+</p>
 
-[![Instagram](https://img.shields.io/badge/Instagram-@drxx__v1tuu-FFA500?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/drxx__v1tuu/)
+<img src="assets/title-contact.svg" width="100%" alt="04 / Contato: Vamos conversar?">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Victor_Soares_Langkamer-FFA500?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victor-soares-langkamer-499383356/)
+<p align="center">
+  <a href="https://victor-langkamer-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portf%C3%B3lio-ver%20ao%20vivo-E33A0A?style=for-the-badge&logo=vercel&logoColor=F3E8DA&labelColor=1C110D" alt="Portfólio"></a>
+  <a href="https://www.linkedin.com/in/victor-soares-langkamer-499383356/"><img src="https://img.shields.io/badge/LinkedIn-Victor%20Langkamer-4A2A1E?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI0YzRThEQSIgZD0iTTIwLjQ1IDIwLjQ1aC0zLjU2di01LjU3YzAtMS4zMy0uMDItMy4wNC0xLjg1LTMuMDQtMS44NSAwLTIuMTQgMS40NS0yLjE0IDIuOTR2NS42N0g5LjM1VjloMy40MXYxLjU2aC4wNWMuNDgtLjkgMS42NC0xLjg1IDMuMzctMS44NSAzLjYgMCA0LjI3IDIuMzcgNC4yNyA1LjQ2djYuMjhaTTUuMzQgNy40M2EyLjA2IDIuMDYgMCAxIDEgMC00LjEzIDIuMDYgMi4wNiAwIDAgMSAwIDQuMTNaTTcuMTIgMjAuNDVIMy41NlY5aDMuNTZ2MTEuNDVaTTIyLjIyIDBIMS43N0MuNzkgMCAwIC43NyAwIDEuNzN2MjAuNTRDMCAyMy4yMy43OSAyNCAxLjc3IDI0aDIwLjQ1Yy45OCAwIDEuNzgtLjc3IDEuNzgtMS43M1YxLjczQzI0IC43NyAyMy4yIDAgMjIuMjIgMFoiLz48L3N2Zz4=&labelColor=1C110D" alt="LinkedIn"></a>
+  <a href="https://www.instagram.com/victor_lang/"><img src="https://img.shields.io/badge/Instagram-@victor__lang-4A2A1E?style=for-the-badge&logo=instagram&logoColor=F3E8DA&labelColor=1C110D" alt="Instagram"></a>
+  <a href="mailto:victorlangkamer@gmail.com?subject=Conversa%20sobre%20um%20projeto"><img src="https://img.shields.io/badge/E--mail-victorlangkamer@gmail.com-4A2A1E?style=for-the-badge&logo=gmail&logoColor=F3E8DA&labelColor=1C110D" alt="E-mail"></a>
+</p>
 
-[![GitHub](https://img.shields.io/badge/GitHub-VitorLangkamer-FFA500?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VitorLangkamer)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=VitorLangkamer&label=Visitas&color=4A2A1E&style=for-the-badge" alt="Visitas no perfil">
+  <img src="https://img.shields.io/github/followers/VitorLangkamer?style=for-the-badge&logo=github&logoColor=F3E8DA&label=Seguidores&labelColor=1C110D&color=4A2A1E" alt="Seguidores">
+</p>
 
-</div>
+<img src="assets/footer.svg" width="100%" alt="Sites feitos com intenção. Tecnologia com critério. Café com código.">
+
+<!-- Os SVGs em assets/ são gerados por scripts/build.py (veja scripts/README.md). -->
