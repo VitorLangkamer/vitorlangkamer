@@ -39,6 +39,6 @@ Me chamo **Victor Soares Langkamer**. Sou desenvolvedor front-end e web designer
   <img src="https://img.shields.io/github/followers/VitorLangkamer?style=for-the-badge&logo=github&logoColor=F3E8DA&label=Seguidores&labelColor=1C110D&color=4A2A1E" alt="Seguidores">
 </p>
 
-<img src="assets/footer.svg" width="100%" alt="Sites feitos com intenção. Tecnologia com critério. Café com código.">
+<img src="assets/footer.svg" width="100%" alt="Sites feitos com intenção. Tecnologia com critério.">
 
 <!-- Os SVGs em assets/ são gerados por scripts/build.py (veja scripts/README.md). -->
